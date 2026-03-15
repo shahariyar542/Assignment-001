@@ -7,3 +7,55 @@ body{
     font-family: "Inter", sans-serif;
     font-style: normal;
 }
+/* Header Navbar */
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 120px;
+}
+header nav .menu-bar ul{
+    display: flex;
+    gap: 32px;
+}
+header nav .menu-bar ul li{
+    list-style: none;
+}
+header nav .menu-bar ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+header nav .menu-bar ul li a:hover{
+    color: rgb(255, 0, 204);
+    font-weight: 700;
+    transform: translateY(-3px) scale(1.05);
+}
+
+/* All buttons */
+.btn{
+    border: none;
+    border-radius: 4px;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    transition: all 0.3s ease;
+}
+.green-btn{
+    background-color: rgba(70, 145, 101, 1);
+    display: flex;
+    gap: 6px;
+}
+.white-btn{
+    background-color: transparent;
+    border: 1px solid white;
+}
+.btn:hover{
+    background-color: #ede911b2;
+    color: #000;
+    cursor: pointer;
+    transform: translateY(-4px);
+}
