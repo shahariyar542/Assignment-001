@@ -59,3 +59,68 @@ header nav .menu-bar ul li a:hover{
     cursor: pointer;
     transform: translateY(-4px);
 }
+/* Hero Part */
+header .hero-banner{
+    background: url(../assets/hero-bg.png);
+    display: flex;
+    justify-content: center;
+    padding: 115px 120px 180px;
+}
+header .hero-banner .heading{
+    text-align: center;
+}
+header .hero-banner .heading .status-btn{
+    display: flex;
+    justify-content: center;
+}
+.hero-banner .access-btn{
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    gap: 6px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 1000px;
+    background-color: white;
+    color: rgba(70, 145, 101, 1);
+    margin-bottom: 16px;
+    transition: all 0.3s ease;
+}
+.hero-banner .access-btn:hover{
+    background-color: rgb(255, 0, 204);
+    cursor: pointer;
+    transform: translateY(-3px);
+}
+.hero-banner .status-icon{
+    width: 16px;
+    height: 16px;
+}
+.hero-banner .heading h2{
+    font-size: 72px;
+    font-weight: 700;
+    color: #fff;
+}
+.hero-banner .heading .green-heading{
+    display: block;
+    color: rgba(48, 184, 104, 1);
+    margin-bottom: 16px;
+}
+.hero-banner .heading .description{
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 32px;
+}
+.heading .function-button{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+.heading .function-button .btn{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.heading .function-button .btn-icon{
+    width: 24px;
+    height: 24px;
+}
